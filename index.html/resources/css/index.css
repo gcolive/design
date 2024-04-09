@@ -73,9 +73,17 @@ a {
     line-height: 2.5;
   }
 
-  li {
-    
+  .my-button {
+    padding: 10px 20px;
+    background-color: #bbd9df;
+    color: #7a2530;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.my-button:hover {
+    background-color: #e7cdcd;
   }
   
   p {
