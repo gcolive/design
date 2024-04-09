@@ -17,7 +17,7 @@ a {
 
 /*navigation*/
 
-  nav span {
+  .styled-button {
   display: inline-block;
   background-color: #e7cdcd;
   width: 200px;
@@ -28,6 +28,13 @@ a {
     font-weight: 200;
     letter-spacing: 2px;
     color:#7a2530;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .styled-button:hover {
+    background-color: #9b8989;
   }
 
   /*content*/
@@ -75,7 +82,7 @@ a {
 
   .my-button {
     padding: 10px 20px;
-    background-color: #bbd9df;
+    background-color: #ced0d1;
     color: #7a2530;
     border: none;
     border-radius: 5px;
@@ -83,7 +90,7 @@ a {
 }
 
 .my-button:hover {
-    background-color: #e7cdcd;
+    background-color: #9b8989;
   }
   
   p {
