@@ -1,0 +1,128 @@
+ /* Universal Styles */
+
+ * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: #7a2530;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+  text-decoration: none;
+}
+
+/*navigation*/
+
+  nav span {
+  display: inline-block;
+  background-color: #e7cdcd;
+  width: 200px;
+  padding: 10px 20px;
+  margin: auto;
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color:#7a2530;
+  }
+
+  /*content*/
+
+  h1 {
+    font-family: 'Dancing Script', 'Playfair Display', serif;
+    font-weight: lighter;
+    color: #7a2530;
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-family: 'Dancing Script', 'Playfair Display', serif;
+    font-weight: lighter;
+    color: #7a2530;
+    font-size: 2.5rem;
+  }
+
+  main {
+    width: 80%;
+    margin: auto;
+    display: block;
+    align-items: center;
+  }
+
+  body {
+    background-color: rgb(235, 209, 209);
+    background-image: url('https://img.freepik.com/vetores-gratis/vetor-de-fundo-gradiente-de-inverno-azul-e-rosa_53876-117276.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707696000&semt=ais');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+
+  }
+
+  .no-numbers {
+    list-style-type: none;
+  }  
+
+  ol {
+    color: #7a2530;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 2.5;
+  }
+
+  li {
+    
+
+  }
+  
+  p {
+    color: #7a2530;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.5;
+    word-spacing: 2px;
+    }
+
+    .centrorecreativo, .escritório, .salas, .cozinhas, .quartos, .exponencial {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }    
+
+    figure {
+      display: inline-flex;
+      flex-direction: column;
+      margin: 10px;
+  }
+    
+    figure img {
+      height: 200px;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+
+  figcaption {
+    color: #7a2530;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  footer {
+      text-align: center;
+      color: #7a2530;
+      background-color: rgba(0, 0, 0, 0.3);
+      opacity: 0.5;
+      font-size: 1.25rem;
+      font-family: 'Playfair Display', Georgia, serif;
+      margin-top: 10px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    
+  }
